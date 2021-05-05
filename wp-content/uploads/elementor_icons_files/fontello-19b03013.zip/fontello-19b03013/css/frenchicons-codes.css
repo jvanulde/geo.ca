@@ -1,0 +1,10 @@
+
+.icon-administration:before { content: '\e800'; } /* '' */
+.icon-infrastructure:before { content: '\e805'; } /* '' */
+.icon-science:before { content: '\e807'; } /* '' */
+.icon-économie:before { content: '\e809'; } /* '' */
+.icon-environnement:before { content: '\e80a'; } /* '' */
+.icon-imagerie:before { content: '\e80b'; } /* '' */
+.icon-société:before { content: '\e80d'; } /* '' */
+.icon-urgence:before { content: '\e80e'; } /* '' */
+.icon-juridiques:before { content: '\e80f'; } /* '' */
