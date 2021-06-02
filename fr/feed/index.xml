@@ -12,13 +12,13 @@
 	<atom:link href="https://stage.geo.ca/fr/feed/" rel="self" type="application/rss+xml" />
 	<link>https://stage.geo.ca/</link>
 	<description></description>
-	<lastBuildDate>Wed, 05 May 2021 04:08:32 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 31 May 2021 18:39:53 +0000</lastBuildDate>
 	<language>fr-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
 
 <image>
 	<url>https://stage.geo.ca/wp-content/uploads/2020/09/icon-GEO-150x150.png</url>
