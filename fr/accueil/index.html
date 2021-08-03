@@ -46,8 +46,19 @@ img.emoji {
 <link rel="stylesheet" id="kb-frontend-app-css" href="https://stage.geo.ca/wp-content/plugins/helpie/includes/asset-files/bundle/css/kb-frontend-app.css?ver=1.9.3" type="text/css" media="all">
 <style id="kb-frontend-app-inline-css" type="text/css">.helpie-article-editor #title-tinymce:empty:before{content: 'Title here...'} .helpie-article-editor #content-tinymce:empty:before{content: 'Content here...'}</style>
 <link rel="stylesheet" id="wp-ulike-css" href="https://stage.geo.ca/wp-content/plugins/wp-ulike/assets/css/wp-ulike.min.css?ver=4.4.7" type="text/css" media="all">
+<link rel="stylesheet" id="f40e0ff98-css" href="https://stage.geo.ca/wp-content/uploads/essential-addons-elementor/734e5f942.min.css?ver=1627995896" type="text/css" media="all">
+<link rel="stylesheet" id="cgp-global-css" href="https://stage.geo.ca/wp-content/themes/phlox/includes/cgp-global/dist/css/cgp-global.css?ver=1.0" type="text/css" media="all">
 <link rel="stylesheet" id="cgp-video-css" href="https://stage.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/dist/css/cgp-video.css?ver=1.0.0" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-icons-css" href="https://stage.geo.ca/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.11.0" type="text/css" media="all">
+<style id="elementor-icons-inline-css" type="text/css">.elementor-add-new-section .elementor-add-templately-promo-button{
+            background-color: #5d4fff;
+            background-image: url(https://stage.geo.ca/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin-left: 5px;
+            position: relative;
+            bottom: 5px;
+        }</style>
 <link rel="stylesheet" id="elementor-animations-css" href="https://stage.geo.ca/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.1.4" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-frontend-legacy-css" href="https://stage.geo.ca/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.1.4" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-frontend-css" href="https://stage.geo.ca/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.1.4" type="text/css" media="all">
@@ -189,13 +200,6 @@ var ecs_ajax_params = {"ajaxurl":"https:\/\/stage.geo.ca\/wp-admin\/admin-ajax.p
 	<ul class="sub-menu-group">
 <li class="sub-menu-item menu-item-type-post_type menu-item-object-page"><a href="https://stage.geo.ca/fr/gouvernement-du-canada/">Gouvernement du Canada</a></li>
 <li class="sub-menu-item menu-item-type-post_type menu-item-object-page"><a href="https://stage.geo.ca/fr/provinces-et-territoires/">Provinces et territoires</a></li>
-
-	</ul>
-</li>
-<li class="cgp-mega-menu-heading sub-menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
-<h2 class="menu-heading">Par sujets</h2>
-	<ul class="sub-menu-group">
-<li class="sub-menu-item menu-item-type-post_type menu-item-object-page"><a href="https://stage.geo.ca/fr/sujets-dactualite/">Sujets d’actualité</a></li>
 
 	</ul>
 </li>
@@ -834,7 +838,7 @@ window.lodash = _.noConflict();
 <script type="text/javascript" src="https://stage.geo.ca/wp-includes/js/dist/api-fetch.min.js?ver=a783d1f442d2abefc7d6dbd156a44561" id="wp-api-fetch-js"></script>
 <script type="text/javascript" id="wp-api-fetch-js-after">
 wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://stage.geo.ca/wp-json/" ) );
-wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "a08fd8e8df" );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "69f89a20aa" );
 wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
 wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
 wp.apiFetch.nonceEndpoint = "https://stage.geo.ca/wp-admin/admin-ajax.php?action=rest-nonce";
@@ -851,7 +855,7 @@ var wpcf7 = [];
 <script type="text/javascript" id="kb-frontend-app-js-extra">
 /* <![CDATA[ */
 var my_ajax_object = {"ajax_url":"https:\/\/stage.geo.ca\/wp-admin\/admin-ajax.php"};
-var helpieKBFrontEndNonce = "724e6a2206";
+var helpieKBFrontEndNonce = "c80ea89cfc";
 var helpieGlobal = {"plugin_url":"https:\/\/stage.geo.ca\/wp-content\/plugins\/helpie\/"};
 var domain = "https:\/\/stage.geo.ca\/";
 var helpie_strings = {"in":"in","noMatches":"1","dirURL":"\/opt\/bitnami\/apps\/wordpress\/htdocs\/","pluginURL":"https:\/\/stage.geo.ca\/wp-content\/plugins\/helpie\/","onPublish":"Article Published","onSubmitted":"Article Submitted","onRevisionRemoved":"Viewed Revision Removed","onTrashed":"Article Trashed","onDeleted":"Article Deleted","onVisit":"View Article","setFeaturedImage":"Set Featured Image","chooseFeaturedImage":"Choose Featured Image"};
@@ -872,6 +876,12 @@ var auxpfo = {"ajax_url":"https:\/\/stage.geo.ca\/wp-admin\/admin-ajax.php","inv
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://stage.geo.ca/wp-content/plugins/auxin-portfolio/public/assets/js/portfolio.js?ver=2.1.4" id="auxin-portfolio-portfolio-js"></script>
+<script type="text/javascript" id="f40e0ff98-js-extra">
+/* <![CDATA[ */
+var localize = {"ajaxurl":"https:\/\/stage.geo.ca\/wp-admin\/admin-ajax.php","nonce":"655bcb3fba","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://stage.geo.ca/wp-content/uploads/essential-addons-elementor/734e5f942.min.js?ver=1627995896" id="f40e0ff98-js"></script>
 <script type="text/javascript" src="https://stage.geo.ca/wp-content/plugins/elementor-cgp-widgets/assets/dist/js/cgp-video-min.js?ver=1.0.0" id="cgp-video-js"></script>
 <script type="text/javascript" src="https://stage.geo.ca/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=1.0" id="font-awesome-4-shim-js"></script>
 <script type="text/javascript" src="https://stage.geo.ca/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=2.2.1" id="elementskit-framework-js-frontend-js"></script>
@@ -903,7 +913,7 @@ jQuery(function ($) {
 <script type="text/javascript" src="https://stage.geo.ca/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.4" id="elementor-frontend-modules-js"></script>
 <script type="text/javascript" src="https://stage.geo.ca/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.2.1" id="elementor-sticky-js"></script>
 <script type="text/javascript" id="elementor-pro-frontend-js-before">
-var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/stage.geo.ca\/wp-admin\/admin-ajax.php","nonce":"10b18569af","urls":{"assets":"https:\/\/stage.geo.ca\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/stage.geo.ca\/wp-admin\/admin-ajax.php","nonce":"008bc4394c","urls":{"assets":"https:\/\/stage.geo.ca\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},
 "facebook_sdk":{"lang":"fr_CA","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/stage.geo.ca\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 </script>
 <script type="text/javascript" src="https://stage.geo.ca/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.2.1" id="elementor-pro-frontend-js"></script>
